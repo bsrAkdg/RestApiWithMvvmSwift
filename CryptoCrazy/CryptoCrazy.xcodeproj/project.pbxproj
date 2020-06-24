@@ -13,6 +13,7 @@
 		E874B0EF24A3E1190058FF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E874B0ED24A3E1190058FF8B /* Main.storyboard */; };
 		E874B0F124A3E11C0058FF8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E874B0F024A3E11C0058FF8B /* Assets.xcassets */; };
 		E874B0F424A3E11C0058FF8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E874B0F224A3E11C0058FF8B /* LaunchScreen.storyboard */; };
+		E874B0FC24A3E8960058FF8B /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E874B0FB24A3E8960058FF8B /* CryptoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E874B0F024A3E11C0058FF8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E874B0F324A3E11C0058FF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E874B0F524A3E11C0058FF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E874B0FB24A3E8960058FF8B /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E874B0F024A3E11C0058FF8B /* Assets.xcassets */,
 				E874B0F224A3E11C0058FF8B /* LaunchScreen.storyboard */,
 				E874B0F524A3E11C0058FF8B /* Info.plist */,
+				E874B0FB24A3E8960058FF8B /* CryptoTableViewCell.swift */,
 			);
 			path = CryptoCrazy;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E874B0FC24A3E8960058FF8B /* CryptoTableViewCell.swift in Sources */,
 				E874B0EC24A3E1190058FF8B /* ViewController.swift in Sources */,
 				E874B0E824A3E1190058FF8B /* AppDelegate.swift in Sources */,
 				E874B0EA24A3E1190058FF8B /* SceneDelegate.swift in Sources */,
